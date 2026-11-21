@@ -1,0 +1,12 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local tooling / temp files
+tmp_*.mjs
+*.lnk
+
+# Editor folders
+.vscode/
+.idea/
