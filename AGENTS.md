@@ -20,18 +20,34 @@ Plain HTML/CSS/JS — no build step, no dependencies.
 - `js/main.js` — mobile nav, scroll reveal, header shadow, WhatsApp form submit
 - `favicon.svg` — peacock-eye brand mark
 
-Bird artwork is inline SVG illustrations (no image files). Replace with real
-photos of the farm's birds when available — swap the `<svg>` inside each
-`.bird-art` / `.float-card .fc-art` / `.art-panel` for an `<img>`.
+## Images
+
+Real photos live in `images/` (CC-licensed, found via Openverse). Replace with
+the farm's own photos when available — keep the same filenames. Card art uses
+`<img>` with `object-fit: cover`; gradient classes (`.art-*`) remain as
+loading placeholders behind the images.
+
+| File | Bird | Author, license |
+|---|---|---|
+| hero-ostrich.jpg | Hero background — male ostrich | andrew_allen, CC BY (iNaturalist photo 55506762) |
+| peacock.jpg | Indian Blue peafowl display | Tony Fischer, CC BY 2.0 — flickr.com/photo/3318039521 |
+| ostrich-chicks.jpg | Ostrich chicks in pen | kashifaziz, CC BY 2.0 — flickr.com/photo/6776203911 |
+| sebastopol-goose.jpg | Sebastopol goose | Dave Bezaire, CC BY-SA 2.0 — flickr.com/photo/53661038267 |
+| pekin-duck.jpg | Pekin duck | SidPix, CC BY 2.0 — flickr.com/photo/4710744467 |
+| chinese-goose.jpg | Chinese goose | OakleyOriginals, CC BY 2.0 — flickr.com/photo/8362565648 |
+| silkie-chicken.jpg | Silkie chicken | sandyseek, CC BY 2.0 — flickr.com/photo/2706965374 |
+| guineafowl.jpg | Helmeted guineafowl | martie1swart, CC BY 2.0 — flickr.com/photo/6297479779 |
+
+Footer carries a general credit line; per-image details are in this table.
 
 ## Business facts
 
 - Name: DEV4 Farms (site: dev4farms.com)
-- Location: Chisamba, Central Province, Zambia
-- Phone (as given by owner): 0575943484
-- WhatsApp number used in links: 260575943484 (international format, UNVERIFIED — owner should confirm)
+- Location: Chikonkomene, Chisamba, Central Province, Zambia
+- Phone: 0575943484 local / +260 57 594 3484 — tel: links use international format
+- WhatsApp: 260575943484 — confirmed by owner
 - Email: info@dev4farms.com (placeholder)
-- Facebook link: placeholder `href="#"` — owner to provide page URL
+- Facebook: https://www.facebook.com/share/1CGb4XoiZv/?mibextid=wwXIfr (wired into footer socials + contact page)
 - Birds: peacocks, small ostriches (chicks), Sebastopol geese, Pekin ducks, Chinese geese, silkie chickens, plus seasonal varieties
 
 ## Updating the WhatsApp number
