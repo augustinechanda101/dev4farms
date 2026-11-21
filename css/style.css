@@ -170,7 +170,7 @@ h1, h2, h3, h4 {
   color: var(--green-900);
   letter-spacing: 0.02em;
 }
-.brand-name span { color: var(--gold-deep); font-style: italic; }
+.brand-name span { color: var(--gold-deep); }
 
 .site-nav {
   display: flex;
