@@ -59,6 +59,23 @@ if ("IntersectionObserver" in window && revealEls.length) {
   revealEls.forEach((el) => el.classList.add("visible"));
 }
 
+// ---- Bird card "See more" (mobile) ----
+document.querySelectorAll(".bird-card .bird-body").forEach((body) => {
+  const card = body.closest(".bird-card");
+  card.classList.add("can-expand");
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "see-more";
+  btn.setAttribute("aria-expanded", "false");
+  btn.textContent = "See more";
+  btn.addEventListener("click", () => {
+    const expanded = card.classList.toggle("expanded");
+    btn.textContent = expanded ? "See less" : "See more";
+    btn.setAttribute("aria-expanded", expanded ? "true" : "false");
+  });
+  body.appendChild(btn);
+});
+
 // ---- Footer year ----
 const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();

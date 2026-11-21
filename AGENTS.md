@@ -29,6 +29,7 @@ loading placeholders behind the images.
 
 | File | Bird | Author, license |
 |---|---|---|
+| logo.jpg | Official logo — "The Kings of Exotic" emblem (owner-supplied) | © DEV4 Farms |
 | hero-ostrich.jpg | Hero background — male ostrich | andrew_allen, CC BY (iNaturalist photo 55506762) |
 | peacock.jpg | Indian Blue peafowl display | Tony Fischer, CC BY 2.0 — flickr.com/photo/3318039521 |
 | ostrich-chicks.jpg | Ostrich chicks in pen | kashifaziz, CC BY 2.0 — flickr.com/photo/6776203911 |
